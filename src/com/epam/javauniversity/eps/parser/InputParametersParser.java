@@ -5,7 +5,7 @@ import org.apache.commons.cli.*;
 /**
  * cmd format options parser
  */
-public class FieldParametersParser  {
+public class InputParametersParser  {
 
     Options options;
 
@@ -15,7 +15,7 @@ public class FieldParametersParser  {
         return line;
     }
 
-    public FieldParametersParser() {
+    public InputParametersParser() {
         options = new Options();
 
         Option leftOperand = Option.builder("w")
