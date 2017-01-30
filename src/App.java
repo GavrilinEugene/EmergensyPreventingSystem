@@ -29,9 +29,10 @@ public class App {
             EmergencyReporter reporter = new EmergencyReporter();
             System.out.println(reporter.createReporter(sector, emergencies, input.getFieldFactor(), possibleRiskGroup));
         } catch (ParseException e) {
-
+            System.err.println( "Parsing failed.  Reason: " + e.getMessage() );
+            System.exit(1);
+            return;
         }
-
     }
 
     // mooove
