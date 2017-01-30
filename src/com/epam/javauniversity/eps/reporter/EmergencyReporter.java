@@ -40,11 +40,7 @@ public class EmergencyReporter {
         for (int row = 0; row < sector.getWidth(); row++) {
             rowName.append(" " + row + " ");
             for (int column = 0; column < sector.getHeight(); column++) {
-                if (sector.getCellState(row, column) == CellState.HUMAN) {
-                    rowName.append("|X|");
-                } else {
-                    rowName.append(" - ");
-                }
+                 rowName.append(sector.getCellState(row, column).toString());
             }
             rowName.append("\n");
         }

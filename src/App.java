@@ -34,6 +34,7 @@ public class App {
 
     }
 
+    // mooove
     private static List<RiskGroup> getPossibleRiskGroup() {
         return Arrays.asList(new RiskGroup("NONE", new Range(1, 2)), new RiskGroup("MINOR", new Range(3, 4)),
                 new RiskGroup("NORMAL", new Range(5, 7)), new RiskGroup("MAJOR", new Range(8, 13)),
