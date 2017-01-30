@@ -2,6 +2,9 @@ package com.epam.javauniversity.eps.sector;
 
 import com.epam.javauniversity.eps.sector.cell.CellState;
 
+/*
+ * The field to play with while preventing
+ */
 public class Sector implements Cloneable {
     private CellState[][] sector;
 

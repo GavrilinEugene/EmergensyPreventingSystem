@@ -8,6 +8,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/*
+ * main logic of EPS: find risk groups
+ */
 public class EmergencyLocator {
     private final List<RiskGroup> riskGroups;
     private Sector locationSector;
